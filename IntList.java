@@ -108,7 +108,7 @@ public class IntList {
         while(A != null){
             ptr.rest = new IntList(A.first,null);
             A = A.rest;
-            ptr = ptr.rest;
+            ptr = ptr.rest;///test
         }
 
         // A链表处理完后，将B链表直接接到新链表的末尾
